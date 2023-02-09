@@ -136,7 +136,7 @@ var config_data = `
       "gsCol": "feedCount",
       "type": "counter"
     },
-    { "name": "Was Defended",
+    { "name": "Was Defendedddd",
       "code": "wd",
       "gsCol": "wasDefended",
       "type": "bool"
