@@ -73,7 +73,7 @@ var config_data = `
       "toggleClick": "true",
       "showFlip": "false",
       "showUndo": "false",
-      "shape": "circle 12 black red true"
+      "shape": "circle 12 black purple true"
     },
     
     { "name": "Mobility?",
@@ -100,13 +100,13 @@ var config_data = `
     { "name": "Grid Scoring",
       "code": "tsg",
       "type": "clickable_image",
-      "filename": "2023/grid_image.png",
+      "filename": "2023/new gridmap.jpg",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
       "showFlip": "false",
       "showUndo": "false",
-      "shape": "circle 12 black red true",
+      "shape": "circle 12 black purple true",
       "cycleTimer": "tct"
     },
     { "name": "Feeder Count<br>(Fed another bot)",
