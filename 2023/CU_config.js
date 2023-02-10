@@ -79,7 +79,7 @@ var config_data = `
     
     {"name": "Preload",
     "code: "pr",
-    "type": "radio"
+    "type": "radio",
     "choices":{
     "r": "Cubey Cube<br>",
     "e": "Coney Cone<br>",
