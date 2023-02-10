@@ -5,7 +5,7 @@ var config_data = `
   "checkboxAs": "10",
   "enable_google_sheets": "true",
   "prematch": [
-    { "name": "Scouters NAME",
+    { "name": "Scouter Initials",
       "code": "s",
       "gsCol": "scouter",
       "type": "scouter",
@@ -66,7 +66,7 @@ var config_data = `
       "code": "as",
       "gsCol": "autoStartPosition",
       "type": "field_image",
-      "filename": "2023/new gridmap.jpg",
+      "filename": "2023/field_image.png",
       "clickRestriction": "one",
       "shape": "circle 5 black red true"
     }
@@ -76,7 +76,7 @@ var config_data = `
       "code": "asg",
       "gsCol": "autoScoringGrid",
       "type": "clickable_image",
-      "filename": "2023/new gridmap.jpg",
+      "filename": "2023/grid_image.png",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
@@ -84,8 +84,16 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-
-    
+    { "name": "Crossed Cable",
+      "code": "acc",
+      "gsCol": "autoCrossedCable",
+      "type": "bool"
+    },
+    { "name": "Crossed Charging Station",
+      "code": "acs",
+      "gsCol": "autoCrossedCharginStation",
+      "type": "bool"
+    },
     { "name": "Mobility?",
       "code": "am",
       "gsCol": "autoMobility",
@@ -105,7 +113,7 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "TIMER TESTER",
+    { "name": "Cycle Timer",
       "code": "tct",
       "gsCol": "cycleTimes",
       "type": "cycle"
@@ -114,7 +122,7 @@ var config_data = `
       "code": "tsg",
       "gsCol": "gridScoring",
       "type": "clickable_image",
-      "filename": "2023/new gridmap.jpg",
+      "filename": "2023/grid_image.png",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
@@ -123,7 +131,16 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    
+    { "name": "Feeder Count<br>(Fed another bot)",
+      "code": "tfc",
+      "gsCol": "feedCount",
+      "type": "counter"
+    },
+    { "name": "Was Defendedddd",
+      "code": "wd",
+      "gsCol": "wasDefended",
+      "type": "bool"
+    },
     { "name": "Who Defended this bot<br>(Team #)",
       "code": "who",
       "gsCol": "defenderTeamNum",
