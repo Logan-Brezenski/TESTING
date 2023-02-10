@@ -67,7 +67,7 @@ var config_data = `
     { "name": "Auto Scoring",
       "code": "asg",
       "type": "clickable_image",
-      "filename": "2023/grid_image.png",
+      "filename": "2023/new gridmap.jpg",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
