@@ -95,17 +95,7 @@ var config_data = `
 			"shape": "circle 12 black purple true"
 		},
 
-		{
-			"name": "Preload",
-			"code": "pr",
-			"type": "radio",
-			"choices": {
-				"r": "Cubey Cube<br>",
-				"e": "Coney Cone<br>",
-				"x": "No Preload"
-			},
-			"defaultValue": "x"
-		}, {
+{
 			"name": "Mobility?",
 			"code": "am",
 			"type": "bool"
