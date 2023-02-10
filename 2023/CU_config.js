@@ -83,9 +83,9 @@ var config_data = `
     "choices":{
     "r": "Cubey Cube<br>",
     "e": "Coney Cone<br>",
-    "p": "No Preload",
+    "x": "No Preload",
     },
-    "defaultValue": "p"
+    "defaultValue": "x"
     }
     { "name": "Mobility?",
       "code": "am",
