@@ -64,6 +64,7 @@ var config_data = `
     }
   ],
   "auton": [
+  
     { "name": "Auto Scoring",
       "code": "asg",
       "type": "clickable_image",
@@ -76,6 +77,16 @@ var config_data = `
       "shape": "circle 12 black purple true"
     },
     
+    {"name": "Preload",
+    "code: "pr",
+    "type": "radio"
+    "choices":{
+    "r": "Cubey Cube<br>",
+    "e": "Coney Cone<br>",
+    "p": "No Preload",
+    },
+    "defaultValue": "p"
+    }
     { "name": "Mobility?",
       "code": "am",
       "type": "bool"
