@@ -94,18 +94,7 @@ var config_data = `
 			"showUndo": "false",
 			"shape": "circle 12 black purple true"
 		},
-
-		{
-			"name": "Preload",
-			"code": "pr",
-			"type": "radio",
-			"choices": {
-				"r": "Cubey Cube<br>",
-				"e": "Coney Cone<br>",
-				"x": "No Preload"
-			},
-			"defaultValue": "x"
-		}, {
+          {
 			"name": "Mobility?",
 			"code": "am",
 			"type": "bool"
@@ -124,12 +113,12 @@ var config_data = `
 		}
 	],
 	"teleop": [{
-			"name": "Cycle Timer",
+			"name": "Cycles",
 			"code": "tct",
 			"type": "cycle"
 		},
 		{
-			"name": "Grid Scoring",
+			"name": "The Grid",
 			"code": "tsg",
 			"type": "clickable_image",
 			"filename": "2023/new gridmap.jpg",
@@ -142,42 +131,16 @@ var config_data = `
 			"cycleTimer": "tct"
 		},
 		{
-			"name": "Feeder Count<br>(Fed another bot)",
-			"code": "tfc",
-			"type": "counter"
-		},
+		"name": "Picked Up Piece"
+		"code": "pup",
+		"type": "counter"
+	},
+		
 		{
-			"name": "Was Fed<br>Game Pieces",
-			"code": "wf",
-			"type": "bool"
-		},
-		{
-			"name": "Was Defended",
-			"code": "wd",
-			"type": "bool"
-		},
-		{
-			"name": "Who Defended this bot",
-			"code": "who",
-			"type": "text"
-		},
-		{
-			"name": "Smart Placement<br>(creates Links)",
-			"code": "lnk",
-			"type": "bool"
-		},
-		{
-			"name": "Floor Pickup",
-			"code": "fpu",
-			"type": "radio",
-			"choices": {
-				"o": "Cones<br>",
-				"u": "Cubes<br>",
-				"b": "Both<br>",
-				"x": "Not Attempted"
-			},
-			"defaultValue": "x"
-		}
+		"name": "Dropped A Piece"
+		"code": "dap",
+		"type": "counter"
+    },
 	],
 	"endgame": [{
 			"name": "Docking Timer",
@@ -277,7 +240,7 @@ var config_data = `
 			"code": "co",
 			"type": "text",
 			"size": 15,
-			"maxSize": 1008
+			"maxSize": 457
 		}
 	]
 }`;
