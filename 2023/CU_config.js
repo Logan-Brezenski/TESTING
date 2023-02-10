@@ -60,7 +60,7 @@ var config_data = `
 			"min": 1,
 			"max": 99999
 		},
-				{
+		{
 			"name": "Preload",
 			"code": "pr",
 			"type": "radio",
@@ -94,7 +94,7 @@ var config_data = `
 			"showUndo": "false",
 			"shape": "circle 12 black purple true"
 		},
-          {
+		{
 			"name": "Mobility?",
 			"code": "am",
 			"type": "bool"
@@ -130,17 +130,18 @@ var config_data = `
 			"shape": "circle 12 black purple true",
 			"cycleTimer": "tct"
 		},
+
 		{
-		"name": "Picked Up Piece",
-		"code": "pup",
-		"type": "counter",
-	},
-		
+			"name": "Picked Up a Piece",
+			"code": "pup",
+			"type": "counter"
+		},
+
 		{
-		"name": "Dropped A Piece",
-		"code": "dap",
-		"type": "counter",
-    },
+			"name": "Dropped A Piece",
+			"code": "dap",
+			"type": "counter"
+		}
 	],
 	"endgame": [{
 			"name": "Docking Timer",
@@ -243,4 +244,5 @@ var config_data = `
 			"maxSize": 457
 		}
 	]
+}
 }`;
