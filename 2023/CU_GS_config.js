@@ -84,16 +84,8 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Crossed Cable",
-      "code": "acc",
-      "gsCol": "autoCrossedCable",
-      "type": "bool"
-    },
-    { "name": "Crossed Charging Station",
-      "code": "acs",
-      "gsCol": "autoCrossedCharginStation",
-      "type": "bool"
-    },
+
+    
     { "name": "Mobility?",
       "code": "am",
       "gsCol": "autoMobility",
@@ -131,22 +123,7 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
-      "gsCol": "feedCount",
-      "type": "counter"
-    },
-    { "name": "Was Defendedddd",
-      "code": "wd",
-      "gsCol": "wasDefended",
-      "type": "radio"
-      "choices": {
-      "p": "54<br>",
-      "w": "55<br>",
-      },
-      "defaultValue": "w"
-      
-    },
+    
     { "name": "Who Defended this bot<br>(Team #)",
       "code": "who",
       "gsCol": "defenderTeamNum",
