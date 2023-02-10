@@ -4,7 +4,7 @@ var config_data = `
 	"page_title": "Charged Up",
 	"checkboxAs": "10",
 	"prematch": [{
-			"name": "Scouter namE",
+			"name": "Scouters Initals",
 			"code": "s",
 			"type": "scouter",
 			"size": 5,
@@ -59,6 +59,17 @@ var config_data = `
 			"type": "team",
 			"min": 1,
 			"max": 99999
+		},
+				{
+			"name": "Preload",
+			"code": "pr",
+			"type": "radio",
+			"choices": {
+				"r": "Cubey Cube<br>",
+				"e": "Coney Cone<br>",
+				"x": "No Preload"
+			},
+			"defaultValue": "x"
 		},
 		{
 			"name": "Auto Start Position",
