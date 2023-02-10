@@ -131,15 +131,15 @@ var config_data = `
 			"cycleTimer": "tct"
 		},
 		{
-		"name": "Picked Up Piece"
+		"name": "Picked Up Piece",
 		"code": "pup",
-		"type": "counter"
+		"type": "counter",
 	},
 		
 		{
-		"name": "Dropped A Piece"
+		"name": "Dropped A Piece",
 		"code": "dap",
-		"type": "counter"
+		"type": "counter",
     },
 	],
 	"endgame": [{
