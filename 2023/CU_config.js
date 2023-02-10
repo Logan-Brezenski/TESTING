@@ -246,3 +246,4 @@ var config_data = `
 	]
 
 }
+}`;
