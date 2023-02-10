@@ -4,7 +4,7 @@ var config_data = `
   "page_title": "Charged Up",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter name",
       "code": "s",
       "type": "scouter",
       "size": 5,
