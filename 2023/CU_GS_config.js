@@ -113,7 +113,7 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Cycle Timer",
+    { "name": "TIMER TESTER",
       "code": "tct",
       "gsCol": "cycleTimes",
       "type": "cycle"
@@ -122,7 +122,7 @@ var config_data = `
       "code": "tsg",
       "gsCol": "gridScoring",
       "type": "clickable_image",
-      "filename": "2023/grid_image.png",
+      "filename": "new gridmap.jpg",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
@@ -139,7 +139,13 @@ var config_data = `
     { "name": "Was Defendedddd",
       "code": "wd",
       "gsCol": "wasDefended",
-      "type": "bool"
+      "type": "radio"
+      "choices": {
+      "p": "54<br>",
+      "w": "55<br>",
+      },
+      "defaultValue": "w"
+      
     },
     { "name": "Who Defended this bot<br>(Team #)",
       "code": "who",
