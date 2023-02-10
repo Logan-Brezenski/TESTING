@@ -244,5 +244,6 @@ var config_data = `
 			"maxSize": 457
 		}
 	]
+
 }
 }`;
