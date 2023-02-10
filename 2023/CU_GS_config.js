@@ -66,7 +66,7 @@ var config_data = `
       "code": "as",
       "gsCol": "autoStartPosition",
       "type": "field_image",
-      "filename": "2023/field_image.png",
+      "filename": "2023/new gridmap.jpg",
       "clickRestriction": "one",
       "shape": "circle 5 black red true"
     }
@@ -76,7 +76,7 @@ var config_data = `
       "code": "asg",
       "gsCol": "autoScoringGrid",
       "type": "clickable_image",
-      "filename": "2023/grid_image.png",
+      "filename": "2023/new gridmap.jpg",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
@@ -122,7 +122,7 @@ var config_data = `
       "code": "tsg",
       "gsCol": "gridScoring",
       "type": "clickable_image",
-      "filename": "new gridmap.jpg",
+      "filename": "2023/new gridmap.jpg",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
