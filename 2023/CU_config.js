@@ -131,7 +131,11 @@ var config_data = `
 			"shape": "circle 12 black purple true",
 			"cycleTimer": "tct"
 		},
-		
+		{ 
+		"name": "Picked Up Piece",
+		"code": "pup",
+		"type": "counter"
+	}
 		{
 			"name": "Floor Pickup",
 			"code": "fpu",
@@ -157,14 +161,12 @@ var config_data = `
 			"choices": {
 				"p": "Parked<br>",
 				"d": "Docked (Not Engaged)<br>",
-				"e": "Engaged<br>",
-				"a": "Attempted but failed<br>",
-				"x": "Not attempted"
+				"e": "Engaged"
 			},
-			"defaultValue": "x"
+			"defaultValue": "p"
 		},
 		{
-			"name": "Total # of alliance<br>robots docked/engaged",
+			"name": "# Of Robots Attempted Charged Station",
 			"code": "dn",
 			"type": "counter"
 		}
