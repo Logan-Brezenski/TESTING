@@ -181,11 +181,7 @@ var config_data = `
 			},
 			"defaultValue": "x"
 		},
-		{
-			"name": "Links Scored",
-			"code": "ls",
-			"type": "counter"
-		},
+		
 		{
 			"name": "Defense Rating",
 			"code": "dr",
@@ -199,11 +195,7 @@ var config_data = `
 			},
 			"defaultValue": "x"
 		},
-		{
-			"name": "Swerve drive?",
-			"code": "sd",
-			"type": "bool"
-		},
+		
 		{
 			"name": "Speed Rating",
 			"code": "sr",
@@ -227,22 +219,13 @@ var config_data = `
 			"code": "tip",
 			"type": "bool"
 		},
-		{
-			"name": "Dropped Cones (>2)",
-			"code": "dc",
-			"type": "bool"
-		},
-		{
-			"name": "Make good<br>alliance partner?",
-			"tooltip": "Would you want this robot on your alliance in eliminations?",
-			"code": "all",
-			"type": "bool"
-		},
+		
+		
 		{
 			"name": "Comments",
 			"code": "co",
 			"type": "text",
-			"size": 15,
+			"size": 34,
 			"maxSize": 1008
 		}
 	]
