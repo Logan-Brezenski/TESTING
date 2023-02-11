@@ -131,11 +131,7 @@ var config_data = `
 			"shape": "circle 12 black purple true",
 			"cycleTimer": "tct"
 		},
-		{ 
-		"name": "Picked Up Piece",
-		"code": "pup",
-		"type": "counter"
-	}
+		
 		{
 			"name": "Floor Pickup",
 			"code": "fpu",
@@ -161,12 +157,14 @@ var config_data = `
 			"choices": {
 				"p": "Parked<br>",
 				"d": "Docked (Not Engaged)<br>",
-				"e": "Engaged"
+				"e": "Engaged<br>",
+				"a": "Attempted but failed<br>",
+				"x": "Not attempted"
 			},
-			"defaultValue": "p"
+			"defaultValue": "x"
 		},
 		{
-			"name": "# Of Robots Attempted Charged Station",
+			"name": "Total # of alliance<br>robots docked/engaged",
 			"code": "dn",
 			"type": "counter"
 		}
@@ -183,7 +181,11 @@ var config_data = `
 			},
 			"defaultValue": "x"
 		},
-		
+		{
+			"name": "Links Scored",
+			"code": "ls",
+			"type": "counter"
+		},
 		{
 			"name": "Defense Rating",
 			"code": "dr",
@@ -197,7 +199,11 @@ var config_data = `
 			},
 			"defaultValue": "x"
 		},
-		
+		{
+			"name": "Swerve drive?",
+			"code": "sd",
+			"type": "bool"
+		},
 		{
 			"name": "Speed Rating",
 			"code": "sr",
@@ -221,13 +227,22 @@ var config_data = `
 			"code": "tip",
 			"type": "bool"
 		},
-		
-		
+		{
+			"name": "Dropped Cones (>2)",
+			"code": "dc",
+			"type": "bool"
+		},
+		{
+			"name": "Make good<br>alliance partner?",
+			"tooltip": "Would you want this robot on your alliance in eliminations?",
+			"code": "all",
+			"type": "bool"
+		},
 		{
 			"name": "Comments",
 			"code": "co",
 			"type": "text",
-			"size": 34,
+			"size": 15,
 			"maxSize": 1008
 		}
 	]
