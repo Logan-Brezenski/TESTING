@@ -131,7 +131,11 @@ var config_data = `
 			"shape": "circle 12 black purple true",
 			"cycleTimer": "tct"
 		},
-		
+					{ 
+		"name": "Dropped",
+		"code": "drp",
+		"type": "counter"
+	},
 		{
 			"name": "Floor Pickup",
 			"code": "fpu",
