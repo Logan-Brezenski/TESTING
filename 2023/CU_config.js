@@ -4,7 +4,7 @@ var config_data = `
 	"page_title": "Charged Up",
 	"checkboxAs": "10",
 	"prematch": [{
-			"name": "Scouters Initals",
+			"name": "Scouter Initals",
 			"code": "s",
 			"type": "scouter",
 			"size": 5,
@@ -65,8 +65,8 @@ var config_data = `
 			"code": "pr",
 			"type": "radio",
 			"choices": {
-				"r": "Cubey Cube<br>",
-				"e": "Coney Cone<br>",
+				"r": "Cube<br>",
+				"e": "Cone<br>",
 				"x": "No Preload"
 			},
 			"defaultValue": "x"
@@ -119,10 +119,15 @@ var config_data = `
 			"type": "cycle"
 		},
 		{
+			"name": "Docking Timer",
+			"code": "ddt",
+			"type": "cycle"
+		},
+		{
 			"name": "Grid Scoring",
 			"code": "tsg",
 			"type": "clickable_image",
-			"filename": "2023/new gridmap2.jpg",
+			"filename": "2023/new gridmap2jpg",
 			"dimensions": "9 4",
 			"clickRestriction": "onePerBox",
 			"toggleClick": "true",
@@ -151,8 +156,8 @@ var config_data = `
 	],
 	"endgame": [{
 			"name": "Docking Timer",
-			"code": "dt",
-			"type": "timer"
+			"code": "dddt",
+			"type": "cycle"
 		},
 		{
 			"name": "Final Status",
@@ -173,54 +178,7 @@ var config_data = `
 			"type": "counter"
 		}
 	],
-	"postmatch": [{
-			"name": "Driver Skill",
-			"code": "ds",
-			"type": "radio",
-			"choices": {
-				"n": "Not Effective<br>",
-				"a": "Average<br>",
-				"v": "Very Effective<br>",
-				"x": "Not Observed"
-			},
-			"defaultValue": "x"
-		},
-		{
-			"name": "Links Scored",
-			"code": "ls",
-			"type": "counter"
-		},
-		{
-			"name": "Defense Rating",
-			"code": "dr",
-			"type": "radio",
-			"choices": {
-				"b": "Below Average<br>",
-				"a": "Average<br>",
-				"g": "Good<br>",
-				"e": "Excellent<br>",
-				"x": "Did not play defense"
-			},
-			"defaultValue": "x"
-		},
-		{
-			"name": "Swerve drive?",
-			"code": "sd",
-			"type": "bool"
-		},
-		{
-			"name": "Speed Rating",
-			"code": "sr",
-			"type": "radio",
-			"choices": {
-				"1": "1 (slow)<br>",
-				"2": "2<br>",
-				"3": "3<br>",
-				"4": "4<br>",
-				"5": "5 (fast)"
-			},
-			"defaultValue": "3"
-		},
+	"postmatch":[ 
 		{
 			"name": "Died/Immobilized",
 			"code": "die",
@@ -232,22 +190,11 @@ var config_data = `
 			"type": "bool"
 		},
 		{
-			"name": "Dropped Cones (>2)",
-			"code": "dc",
-			"type": "bool"
-		},
-		{
-			"name": "Make good<br>alliance partner?",
-			"tooltip": "Would you want this robot on your alliance in eliminations?",
-			"code": "all",
-			"type": "bool"
-		},
-		{
 			"name": "Comments",
 			"code": "co",
 			"type": "text",
 			"size": 15,
-			"maxSize": 1008
+			"maxSize": 457
 		}
 	]
 }`;
