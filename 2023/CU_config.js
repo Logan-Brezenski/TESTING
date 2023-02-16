@@ -127,7 +127,7 @@ var config_data = `
 			"name": "Grid Scoring",
 			"code": "tsg",
 			"type": "clickable_image",
-			"filename": "2023/new gridmap2jpg",
+			"filename": "2023/new gridmap2.jpg",
 			"dimensions": "9 4",
 			"clickRestriction": "onePerBox",
 			"toggleClick": "true",
